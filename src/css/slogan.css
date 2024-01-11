@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: myFont-1;
+    src: url('./BenedictRegular.otf');
+   
+}
+.main-container-slogan{
+    width: 100%;
+    height: 130px;
+    background-color: #F3E0DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    bottom: 4px;
+    
+
+
+}
+.slogan-content{
+    font-size: 1.7em;
+    font-weight: 100;
+    font-family: 'myFont-1';
+    color: #5C2018;
+    text-align: center;
+    width: 110%;
+    
+}
+.slogan-author{
+    color:#5C2018;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+    
+
+}
+.sub-container-slogan{
+    width: 80%;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    left: 30px;
+}

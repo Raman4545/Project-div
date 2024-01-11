@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: myFont-45;
+    src: url('./Metropolis.otf');
+}
+.navbar-container-pseudo{
+    width: 100%;
+    height: 60px;
+    background-color: #5C2018;
+    position: sticky;
+    z-index: 99;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.nav-list-pseudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo-pseudo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 20%;
+    height: 60px;
+    align-items:center;
+    justify-content: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-image: url('../Images/background_images/kl-logo.png');
+
+    
+    
+}
+.Logo-image-2{
+    width: 35%;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+.logo span{
+    font-size: 1.6em;
+}
+.main-logo{
+    width: 100%;
+    height: 70px;
+}
+
+.options-list-pseudo{
+    display: flex;
+    width: 65%;
+    height: 70px;
+    align-items: center;
+    
+}
+.ul-pseudo{
+    display: flex;
+    list-style-type: none;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+  
+}
+
+.li-pseudo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'myFont-45';
+
+
+}
+.special-list-item-pseudo{
+ font-weight: 100;
+ border-radius: 20px;
+ font-size: 1.3em;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #BC4639;
+ transition: background-color 0.3s ease;
+ font-family: 'myFont-2'
+
+}
+.NavLink{
+text-decoration: none;
+color:white;
+}
+.special-list-item-pseudo:hover{
+    background-color: #9a372c;
+}
+.pseudo-link-for-change{
+    position: relative;
+    width: 100%;
+    font-size: 1.1em;
+    top: 7px;
+}
+
+
+  

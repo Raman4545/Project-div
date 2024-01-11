@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family: myFont-2;
+  src: url('./BenedictRegular.otf');
+  
+}
+.slogan2-container {
+  width: 100%;
+  height: 70vh;
+  background-color: white;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  color: #5C2018;
+ 
+  
+  
+ 
+}
+.slogan2-container h1{
+  
+  font-size: 2em;
+  position: relative;
+ 
+  right: 370px;
+  font-family: 'Monterrat',sans-serif;
+  
+}
+
+
+.slogan2-sub-container{
+  width: 75%;
+  height: 50%;
+  position: relative;
+  top: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+
+}
+.div-of-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 200px;
+  width: 50%;
+  
+}
+
+.image-logo{
+  width: 60%;
+  height: 60%;
+  position: relative;
+  top: 27px;
+  left: 50px;
+}
+
+.the-last-text{
+
+ position: relative;
+ bottom: 30px;
+ left: 430px;
+ font-family: 'myFont-2';
+ font-size: 2.2em;
+ font-weight: 200;
+}

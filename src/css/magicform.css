@@ -1,0 +1,22 @@
+.magicform-container {
+    position: fixed;
+    top: -100%; /* Initially hidden above the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: top 0.5s ease-in-out;
+  }
+  
+  .magicform-container.show {
+    top: 50%; /* Displayed at the center of the viewport */
+  }
+  
+  .magicclose-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: myFont-1;
+    src: url('./BenedictRegular.otf');
+   
+}
+.navbar-container{
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 99;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 20%;
+    height: 70px;
+    align-items:center;
+    justify-content: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    filter: brightness(0) invert(1);
+   
+    
+}
+.logo span{
+    font-size: 1.6em;
+}
+.main-logo{
+    width: 100%;
+    height: 70px;
+}
+
+.options-list{
+    display: flex;
+    width: 65%;
+    height: 70px;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+  
+}
+
+li{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'myFont-5';
+    cursor: pointer;
+    border-radius: 20px;
+    
+    
+
+
+}
+li:hover{
+    background-color: #5C2018;
+    color: white;
+}
+
+.special-list-item{
+ font-weight: 1;
+ font-family: 'myFont-1';
+ border-radius: 20px;
+ font-size: 1.3em;
+ padding:5px 40px 5px 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #5C2018;
+ color: #F3E0DC;
+ transition: all 0.3s ease;
+
+}
+.special-list-item:hover{
+    background-color:#5C2018;
+    font-size: 1.5em;
+   
+}
+
+
+/* Existing styles for .navbar-container, .nav-list, .logo, etc. */
+
+.navbar-container.scroll-background {
+    background-color: #f3e0dc; 
+    border-bottom: 1px solid #D4A59A;/* Change to the desired background color */
+  }
+  
+  .navbar-container.scroll-background .logo,
+  .navbar-container.scroll-background li
+  {
+    color: #5C2018;
+    font-weight: 700;
+    filter: brightness(1) invert(0); /* Change to the desired text color */
+  }
+  .navbar-container.scroll-background li:hover{
+    background-color: #5C2018;
+    color: #F3E0DC;
+  }
+  
+ .NavLink{
+    text-decoration: none;
+    color: white;
+    }
+    .nav-list-logo-pic{
+        width: 50%;
+        height: 80%;
+        color: white;
+        
+    }
+
+    @media (max-width:1180px){
+        .navbar-container{
+            width: 100%;
+            height: 70px;
+        }
+        .nav-list{
+           
+            width: 100%;
+        }
+        .options-list{
+            
+            width: 70%;
+        }
+        ul{
+            
+            width: 95%;
+            display: flex;
+            justify-content: space-around;
+        }
+    }

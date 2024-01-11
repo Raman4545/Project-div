@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.About-company-container{
+width: 100%;
+height: 100vh;
+background-color: white;
+display: flex;
+align-items: center;
+gap: 10px;
+justify-content: center;
+margin-bottom: 60px;
+
+}
+.left-abcont{
+    width: 45%;
+    height: 95%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.left-abcont-header{
+    
+    width: 90%;
+    margin-top: 10px;
+    height: 170px;
+    font-size: 1.1em;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: #5C2018;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+
+   
+
+}
+.left-abcont-header-span-1{
+    font-size: 1.3em;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    
+}
+h1{
+    margin: 0;
+}
+.left-abcont-header-span{
+    font-size: 2.2em;
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+
+   
+}
+.left-abcont-p {
+    width: 130%;
+    text-align: justify;
+    /* Change 'hidden' to 'scroll' */
+    position: relative;
+    top: 40px;
+    left: 135px;
+    height: 300px;
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
+    color: #5C2018;
+}
+
+.left-abcont-hr{
+    
+    width: 30%;
+    height: 3px;
+    position: relative;
+    top: 30px;
+    right: 130px;
+    background-color: #BC4639;
+    border: none;
+}
+
+
+.right-abcont{
+    width: 55%;
+    height: 95%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-abcont-left{
+    width: 50%;
+    height: 90%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-abcont-image-1{
+  
+    height: 200px;
+    width: 90%;
+    margin-top:20px;
+    border-radius: 8px;
+    background-image: url('../Images/background_images/kitchen-2.jpg');
+    background-size: cover;
+    z-index: 3;
+}
+.right-abcont-image-2{
+    
+    height: 370px;
+    width: 90%;
+    margin-top:20px;
+    border-radius: 8px;
+    background-image: url('../Images/background_images/image-1.jpg');
+    background-size: cover;
+}
+.right-abcont-right{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-abcont-image-3{
+   
+    height: 650px;
+    width: 100%;
+    margin-top:100px;
+    border-radius: 8px;
+    background-image: url('../Images/background_images/Banner-pics/gallery-1.jpg');
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+    right: 70px;
+    border: 1px solid black;
+}
+
+@media (max-width:1180px){
+    
+    .left-abcont-p{
+        
+        height: 400px;
+        width: 135%;
+        font-size: 1.2em;
+    }
+    .right-abcont-image-3{
+        height: 490px;
+        position: relative;
+        top: 20px;
+
+    }
+
+}
+
+@media (max-width:500px){
+    .About-company-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
